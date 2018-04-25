@@ -13,7 +13,7 @@ for x in range (1,haltestellen+1):
     if (personen + einsteiger <= 60):
         personen =  einsteiger + personen
     else:
-        print("Es können",-60+personen+einsteiger," nichteinsteigen.") 
+        print("Es können",Personen+einsteiger-60," nicht einsteigen.") 
         personen = 60
     aussteiger =  int(input(ast))
     if (personen - aussteiger >= 0):
