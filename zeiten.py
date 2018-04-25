@@ -12,7 +12,6 @@ def zeitInSekunden(Zeit):
 beginnZeit = input("Beginnzeit:\n")
 endZeit = input("Endzeit:")
 end = endZeit.split(":")
-
 beginnSekunden = zeitInSekunden(beginnZeit)
 endSekunden = zeitInSekunden(Endzeit)
 print (endSekunden-beginnSekunden) 
@@ -25,7 +24,6 @@ while (wantstosubmit == true):
     x+=1
     submission[x] = input("Correct/False")
     x+=1
-for i in range(1,x+1,3):
+for i in range(2,x+1,3):
     print(submission[i])
-    print (submission[i+1])
-    print (submission[i+2])
+    
