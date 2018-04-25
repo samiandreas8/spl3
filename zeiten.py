@@ -1,4 +1,5 @@
 # zeiten.py
+import sys
 def zeitInSekunden(Zeit):
     gesamt = 0
     zeit = Zeit.split(":")
